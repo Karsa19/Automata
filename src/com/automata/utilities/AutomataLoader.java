@@ -1,4 +1,4 @@
-package com.automata.utilities;
+apackage com.automata.utilities;
 
 import com.automata.data.models.Automata;
 import com.automata.data.models.State;
@@ -66,7 +66,8 @@ public class AutomataLoader {
         	automata.getStates().get(6).addTransition(symbol, automata.getStates().get(6));
         });
         
-        automata.getStates().get(1).addTransition(automata.getAlphabet().get(10), automata.getStates().get(2));
+        //automata.getStateByName(name);
+        //automata.getStates().get(1).addTransition(automata.findSymbol(), automata.getStates().get(2));
         automata.getStates().get(1).addTransition(automata.getAlphabet().get(9), automata.getStates().get(4));
         automata.getStates().get(3).addTransition(automata.getAlphabet().get(9), automata.getStates().get(4));
         automata.getStates().get(4).addTransition(automata.getAlphabet().get(11), automata.getStates().get(5));
