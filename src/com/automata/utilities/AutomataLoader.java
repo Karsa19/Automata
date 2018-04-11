@@ -170,7 +170,7 @@ public class AutomataLoader {
     automata.addSymbol('1');
     automata.addSymbol('2');
     automata.addSymbol('5');
-    automata.addSymbol('10');
+    automata.addSymbol('D');
     
     automata.addState("q1", false);
     automata.addState("q2", false);
@@ -190,7 +190,7 @@ public class AutomataLoader {
     automata.addTransition("q1", "q2", '1');
     automata.addTransition("q1", "q3", '2');
     automata.addTransition("q1", "q6", '5');
-    automata.addTransition("q1", "q11", '10');
+    automata.addTransition("q1", "q11", 'D');
     automata.addTransition("q2", "q3", '1');
     automata.addTransition("q2", "q4", '2');
     automata.addTransition("q2", "q7", '5');
@@ -208,6 +208,8 @@ public class AutomataLoader {
     automata.addTransition("q6", "q11", '5');
     automata.addTransition("q7", "q8", '1');
     automata.addTransition("q7", "q9", '2');
+    automata.addTransition("q8", "q9", '1');
+    automata.addTransition("q8", "q10", '2');
     automata.addTransition("q9", "q10", '1');
     automata.addTransition("q9", "q11", '2');
     automata.addTransition("q10", "q11", '1');

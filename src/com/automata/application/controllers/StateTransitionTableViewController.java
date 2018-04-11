@@ -31,9 +31,9 @@ public class StateTransitionTableViewController {
         this.tbcType.setCellValueFactory(state -> {
             SimpleStringProperty type = new SimpleStringProperty();
             if (state.getValue().isFinal() && state.getValue() == Main.getCurrentAutomata().getInitialState()) {
-                type.setValue("Inicial / AceptaciÃ³n");
+                type.setValue("Inicial / Aceptación");
             } else if (state.getValue().isFinal()) {
-                type.setValue("AceptaciÃ³n");
+                type.setValue("Aceptación");
             } else if (state.getValue() == Main.getCurrentAutomata().getInitialState()) {
                 type.setValue("Inicial");
             }

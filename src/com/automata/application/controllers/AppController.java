@@ -31,13 +31,13 @@ public class AppController {
 
     @FXML
     public void c(ActionEvent event) {
-        Main.setCurrentAutomata(AutomataLoader.init());
+        Main.setCurrentAutomata(AutomataLoader.incC());
         this.statesTransitionTable(event);
     }
 
     @FXML
     public void d(ActionEvent event) {
-        Main.setCurrentAutomata(AutomataLoader.init());
+        Main.setCurrentAutomata(AutomataLoader.incD());
         this.statesTransitionTable(event);
     }
 

@@ -20,7 +20,7 @@
                 </VBox>
                 <HBox alignment="CENTER_RIGHT" prefWidth="200.0" spacing="10.0">
                     <children>
-                        <TextField fx:id="txtString" promptText="Cadena" HBox.hgrow="ALWAYS"/>
+                        <TextField fx:id="txtString" onAction="#startValidation" promptText="Cadena" HBox.hgrow="ALWAYS"/>
                         <Button mnemonicParsing="false" onAction="#startValidation" text="Iniciar validación"/>
                     </children>
                 </HBox>

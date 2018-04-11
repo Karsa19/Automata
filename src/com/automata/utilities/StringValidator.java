@@ -26,7 +26,7 @@ public class StringValidator {
             }
 
             if (stateIterator.isFinal() && stepCount == string.length() - 1) {
-                steps.get(stepCount).setResult("ATOMATA TERMINADO");
+                steps.get(stepCount).setResult("AUTOMATA TERMINADO");
                 return true;
             }
 

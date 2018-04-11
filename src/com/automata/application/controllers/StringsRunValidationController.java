@@ -48,6 +48,7 @@ public class StringsRunValidationController {
     public void clean(ActionEvent event) {
         this.txtString.clear();
         this.tbvSteps.getItems().clear();
+        this.lblResult.setText("");
     }
 
     @FXML
