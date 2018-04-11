@@ -3,9 +3,7 @@ package com.automata.application.framework;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-/**
- * Created by root on 20/12/15.
- */
+
 public class Manager {
 
     private static AnchorPane rootLayout;

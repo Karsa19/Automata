@@ -5,9 +5,6 @@ import javafx.scene.Node;
 
 import java.io.IOException;
 
-/**
- * Created by root on 6/12/15.
- */
 public class View {
 
     private Node node;

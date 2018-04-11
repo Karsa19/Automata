@@ -21,12 +21,12 @@ public class StringValidator {
             stateIterator = stateIterator.delta(Symbol.findInAlphabet(Main.getCurrentAutomata().getAlphabet(), i));
 
             if (stateIterator == null) {
-                steps.get(stepCount).setResult("Símbolo inválido");
+                steps.get(stepCount).setResult("SIMBOLO INVALIDO");
                 return false;
             }
 
             if (stateIterator.isFinal() && stepCount == string.length() - 1) {
-                steps.get(stepCount).setResult("Autómata terminado");
+                steps.get(stepCount).setResult("ATOMATA TERMINADO");
                 return true;
             }
 

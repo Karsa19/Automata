@@ -4,9 +4,6 @@ import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
 
-/**
- * Created by bruno on 29/03/17.
- */
 public class State {
 
     private StringProperty name = new SimpleStringProperty();

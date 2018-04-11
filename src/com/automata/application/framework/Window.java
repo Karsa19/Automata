@@ -2,9 +2,6 @@ package com.automata.application.framework;
 
 import javafx.stage.Stage;
 
-/**
- * Created by root on 6/12/15.
- */
 public class Window {
 
     private Stage stage = new Stage();

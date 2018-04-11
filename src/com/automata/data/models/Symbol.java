@@ -5,9 +5,6 @@ import javafx.beans.property.SimpleObjectProperty;
 
 import java.util.List;
 
-/**
- * Created by bruno on 29/03/17.
- */
 public class Symbol {
 
     private ObjectProperty<Character> symbol = new SimpleObjectProperty<>();

@@ -6,9 +6,7 @@ import javafx.scene.Scene;
 
 import java.io.IOException;
 
-/**
- * Created by root on 6/12/15.
- */
+
 public class Container {
 
     private Scene scene;

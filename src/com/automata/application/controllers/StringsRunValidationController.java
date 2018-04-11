@@ -12,9 +12,6 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 
-/**
- * Created by bruno on 20/04/17.
- */
 public class StringsRunValidationController {
 
     @FXML

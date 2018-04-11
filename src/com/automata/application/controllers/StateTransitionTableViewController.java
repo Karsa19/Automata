@@ -7,9 +7,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 
-/**
- * Created by bruno on 20/04/17.
- */
 public class StateTransitionTableViewController {
     @FXML
     private TableView<State> tbvTransitions;
